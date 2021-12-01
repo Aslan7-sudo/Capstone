@@ -33,20 +33,6 @@ module "vpc" {
   single_nat_gateway = true
 
   create_igw = true
-
-  #   public_subnet_tags = {
-
-  #   }
-
-  #   private_subnet_tags = {
-
-  #   }
-
-  #   tags = {
-  #     Owner       = "Nikhil"
-  #     Environment = "Course Project"
-  #   }
-
   vpc_tags = {
     Name = "Course VPC"
   }
